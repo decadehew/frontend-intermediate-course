@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+/******************************
+    先把content集中
+*******************************/
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/******************************
+    在content之前添加背景图
+    再加一乘背景颜色使它暗点
+*******************************/
+.wrapper::before {
+  content: "";
+  background-image: url("http://cdn.leagueoflegends.com/lolkit/1.1.6/resources/images/bg-default.jpg");
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -10;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.opacity-background {
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+/******************************
+    设定每个box宽度一致
+*******************************/
+
+.box {
+  width: 300px;
+  display: inline-block;
+  margin: 20px;
+}
+
+.box .ttv-img {
+  width: 100%;
+}
+
+/******************************
+    设定头像及个人资料
+*******************************/
+.img-profile {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+  margin-top: -4px;
+  position: relative;
+}
+
+ .img-profile .head {
+   width: 50px;
+   border-radius: 50%;
+   margin: 8px;
+}
+
+.wrap-p {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.img-profile .p1 {
+  color: white;
+  display: inline;
+  margin: 0;
+  position: absolute;
+  left: 26%;
+  top: 10%;
+}
+
+.p2 {
+  color: white;
+  display: inline-block;
+  margin: 0;
+  position: absolute;
+  top: 45%;
+}
