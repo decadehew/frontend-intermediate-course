@@ -6,7 +6,7 @@
 
 ## 自我練習
 1. 請問 CSS 的屬性position有哪幾種值？
-  ** absolute, fixed, relative, static, inherit
+  * absolute, fixed, relative, static, inherit
 
 2. 承上，請問那幾種值有哪些區別？請講出適合應用的地方。
   * absolute会脱离normal flow，而且可以设定位置使它偏移
