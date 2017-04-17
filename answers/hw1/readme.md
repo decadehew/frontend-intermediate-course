@@ -2,7 +2,7 @@
 
 ## Homework 1
 ### 作業名稱:
-  * 基本 HTML/CSS 練習：以 Twitch 為例
+  *基本 HTML/CSS 練習：以 Twitch 為例*
 
 ## 自我練習
 1. 請問 CSS 的屬性position有哪幾種值？
