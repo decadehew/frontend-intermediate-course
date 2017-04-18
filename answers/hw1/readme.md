@@ -6,10 +6,14 @@
 
 ## 自我練習
 <<<<<<< HEAD
+<<<<<<< HEAD
 ##### 1. 請問 CSS 的屬性position有哪幾種值？
 =======
 1. 請問 CSS 的屬性position有哪幾種值？
 >>>>>>> 038da01a716cd805af96956658cba271bab97733
+=======
+##### 1. 請問 CSS 的屬性position有哪幾種值？
+>>>>>>> 67acd9608a6f01296ae75b218fd52e58e548f319
   * absolute, fixed, relative, static, inherit
 
 ##### 2. 承上，請問那幾種值有哪些區別？請講出適合應用的地方。
