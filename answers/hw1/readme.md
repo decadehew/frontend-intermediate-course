@@ -5,7 +5,11 @@
   *基本 HTML/CSS 練習：以 Twitch 為例*
 
 ## 自我練習
+<<<<<<< HEAD
 ##### 1. 請問 CSS 的屬性position有哪幾種值？
+=======
+1. 請問 CSS 的屬性position有哪幾種值？
+>>>>>>> 038da01a716cd805af96956658cba271bab97733
   * absolute, fixed, relative, static, inherit
 
 ##### 2. 承上，請問那幾種值有哪些區別？請講出適合應用的地方。
