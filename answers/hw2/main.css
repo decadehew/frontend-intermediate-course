@@ -72,13 +72,17 @@ img {
 /************************************************
   箭头指向每个box的时候，会产生亮度，阴影。。。
 *************************************************/
+.column {
+  -moz-transition: filter 1s;
+  -webkit-transition: filter 1s;
+  transition: filter 1s;
+}
+
 .column:hover {
   -webkit-box-shadow: -2px 1px 13px 5px rgba(0,0,0,0.75);
   -moz-box-shadow: -2px 1px 13px 5px rgba(0,0,0,0.75);
   box-shadow: -2px 1px 13px 5px rgba(0,0,0,0.75);
-  -moz-transition: filter 1s;
-  -webkit-transition: filter 1s;
-  transition: filter 1s;
+
   -moz-filter: brightness(160%);
   -webkit-filter: brightness(160%);
   filter: brightness(160%);

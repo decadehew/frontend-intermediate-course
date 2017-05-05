@@ -1,0 +1,89 @@
+/*****************************************
+      Reset style
+******************************************/
+
+*
+  box-sizing border-box
+/*****************************
+  variable
+******************************/
+w = 100%
+h = 100%
+
+body
+  background-image url('http://cdn.leagueoflegends.com/lolkit/1.1.6/resources/images/bg-default.jpg')
+  background-repeat no-repeat
+  background-position center
+  background-attachment fixed
+  margin 0
+  .wrapper
+    background-color rgba(0, 0, 0, 0.5)
+    width w
+    height h
+    min-height 100vh
+
+.row
+  width 1000px
+  margin 0 auto
+  padding-top 30px
+
+
+
+/*****************************************
+******************************************/
+
+/************************************************
+  箭头指向每个box的时候，会产生亮度，阴影。。。
+*************************************************/
+box-shadow(args)
+  -webkit-box-shadow args
+  -moz-box-shadow args
+  box-shadow args
+
+filter(args)
+  -moz-filter brightness(args)
+  -webkit-filter brightness(args)
+  filter brightness(args)
+
+
+.last
+    padding-bottom 50px
+
+
+.column
+  width 300px
+  display inline-block
+  margin 8px
+  -moz-transition filter 1s
+  -webkit-transition filter 1s
+  transition filter 1s
+  &:hover
+    box-shadow(-2px 1px 13px 5px rgba(0,0,0,0.75))
+    filter(160%)
+
+
+img
+  width 100%
+
+
+.content
+  background-color rgba(0,0,0,0.2)
+  padding 10px
+  margin-top -5px
+  display flex
+  align-content center
+
+
+.avatar
+  width 50px
+  height 50px
+  border-radius 50%
+  overflow hidden
+
+
+
+.intro
+  margin-left 25px
+  p
+    color white
+    margin 0
